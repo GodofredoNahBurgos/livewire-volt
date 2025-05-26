@@ -17,8 +17,8 @@
             {{-- @livewire('ParentComponent') --}}
             {{-- @livewire('HomeComponent') --}}
             {{-- @livewire('UserModal') --}}
-            @livewire('products\index')
-            @livewire('products\create')
+            @livewire('./products/index')
+            @livewire('./products/create')
         </div>
     </div>
 </x-layouts.app>
